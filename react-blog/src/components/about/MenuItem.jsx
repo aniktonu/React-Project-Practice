@@ -25,11 +25,15 @@ const MenuItem = (props) => {
                <Card.Img variant="top" src={props.dish.image} />
                <Card.Body>
                     <Card.Title style={{ cursor: "pointer" }}>{props.dish.name}</Card.Title>
-                    <button onClick={navigateToDetail}>Click</button>
+                    <Button variant="primary" onClick={navigateToDetail}>Click</Button>
                     <Routes>
                          <Route path="/details" element={<DishDetail />} />
                     </Routes>
                </Card.Body>
+
+
+
+
           </Card>
 
 
