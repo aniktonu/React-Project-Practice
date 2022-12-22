@@ -12,7 +12,10 @@ const Menu = () => {
 
     const menu = dishes.map(item => {
         return (
-            <MenuItem dish={item} key={item.id} />
+            <MenuItem dish={item}
+                key={item.id}
+
+            />
         )
     })
 
