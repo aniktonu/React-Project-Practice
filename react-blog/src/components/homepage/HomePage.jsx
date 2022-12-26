@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image';
 const HomePage = () => {
     return (
         <>
-            <div className='container row'>
+            <div className='container col-lg-12 mx-auto'>
                 <Image src={HomepageImage} className="img-fluid" />
             </div>
         </>
