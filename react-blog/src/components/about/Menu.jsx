@@ -59,11 +59,6 @@ import MenuItem from './MenuItem';
 
 
 const Menu = () => {
-    const [dishes, setDishes] = useState(DISHES);
-
-
-
-
 
 
 
