@@ -2,7 +2,7 @@ const DISHES = [
     {
         id: 0,
         name: 'Ginger Burger',
-        image: 'assets/images/0burger.jpg',
+        image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=999&q=80',
         category: 'meal',
         label: 'Hot',
         price: '199',
@@ -48,7 +48,7 @@ const DISHES = [
     {
         id: 1,
         name: 'BBQ Chicken Pizza',
-        image: 'assets/images/1pizza.jpg',
+        image: 'https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_960_720.jpg',
         category: 'meal',
         label: '',
         price: '599',
@@ -94,7 +94,7 @@ const DISHES = [
     {
         id: 2,
         name: 'French Fries',
-        image: 'assets/images/2fries.jpg',
+        image: 'https://cdn.pixabay.com/photo/2016/11/19/02/22/schnipo-1837703_960_720.jpg',
         category: 'appetizer',
         label: 'New',
         price: '120',
@@ -140,57 +140,10 @@ const DISHES = [
     {
         id: 3,
         name: 'Cheese Cake',
-        image: 'assets/images/3cake.jpg',
+        image: 'https://cdn.pixabay.com/photo/2017/04/18/12/43/quiche-2238956_960_720.jpg',
         category: 'dessert',
         label: '',
         price: '170',
-        description: 'A delectable, semi-sweet New York Style Cheese Cake, with cracker crust and spiced with Indian cardamoms',
-        comments: [
-            {
-                id: 0,
-                rating: 5,
-                comment: "Imagine all the eatables, living in conFusion!",
-                author: "Shanto",
-                date: "2018-10-16T17:57:28.556094Z"
-            },
-            {
-                id: 1,
-                rating: 4,
-                comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
-                author: "Karim",
-                date: "2017-09-05T17:57:28.556094Z"
-            },
-            {
-                id: 2,
-                rating: 3,
-                comment: "Eat it, just eat it!",
-                author: "Moinul",
-                date: "2019-02-13T17:57:28.556094Z"
-            },
-            {
-                id: 3,
-                rating: 4,
-                comment: "Ultimate, Reaching for the stars!",
-                author: "Rahat",
-                date: "2017-12-02T17:57:28.556094Z"
-            },
-            {
-                id: 4,
-                rating: 2,
-                comment: "It's your birthday, we're gonna party!",
-                author: "Rony",
-                date: "2019-12-02T17:57:28.556094Z"
-            }
-        ]
-    },
-
-    {
-        id: 4,
-        name: 'ghnhngne Cake',
-        image: 'assets/images/3cake.jpg',
-        category: 'dessert',
-        label: '',
-        price: '180',
         description: 'A delectable, semi-sweet New York Style Cheese Cake, with cracker crust and spiced with Indian cardamoms',
         comments: [
             {

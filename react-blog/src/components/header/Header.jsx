@@ -23,7 +23,7 @@ const Header = () => {
 
             <Navbar bg="primary" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="/">Navbar</Navbar.Brand>
                     <Nav className="my-auto my-auto-inner"
                     >
 
